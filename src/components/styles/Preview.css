@@ -1,0 +1,83 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4aa3a3;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: Ruso One;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.previewWrap {
+  max-width: 800px;
+  margin: 1.25rem auto;
+  min-height: 200px;
+  overflow-wrap: break-word;
+}
+
+.previewWrap {
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  border-top: none;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+#preview {
+  padding: 0 1rem;
+}
+
+#preview h1 {
+  border-bottom: 2px solid #224b4b;
+}
+
+#preview h2 {
+  border-bottom: 1px solid #224b4b;
+}
+
+#preview code {
+  background-color: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+#preview pre {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+
+#preview blockquote {
+  border-left: 3px solid #224b4b;
+  color: #224b4b;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+
+
+#preview td,
+#preview th {
+  border: 2px solid #224b4b;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+#preview td {
+  border: 2px solid #224b4b;
+}
+
+#preview table {
+  border-collapse: collapse;
+}
+
+#preview img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
